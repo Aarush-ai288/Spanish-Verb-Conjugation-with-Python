@@ -43,7 +43,9 @@ def conjug(pronoun, word):
     else:
         return pronoun + " " + word
     return newWord
-def checker( ):
+
+
+def checker( ): #Use this to test the code above
     phraseList = ['yo hablo', 'yo aprendo', 'yo escribo', 'tu hablas', 'tu aprendes', 'tu escribes', 'nosotros hablamos', 'nosotros aprendemos', 'nosotros escribimos', 'el habla', 'el aprende', 'el escribe', 'ella habla', 'ella aprende', 'ella escribe', 'usted habla', 'usted aprende', 'usted escribe', 'ellos hablan', 'ellos aprenden', 'ellos escriben', 'ellas hablan', 'ellas aprenden', 'ellas escriben', 'ustedes hablan', 'ustedes aprenden', 'ustedes escriben', 'blah hablar', 'blah aprender', 'blah escribir']
     p, wrongList = [], []
     for pro in "yO Tu nOsOtros eL elLa uSted eLlOs ellas usTedEs blAh".split():
